@@ -18,7 +18,12 @@ public class Main {
 
         peoplePrinter.showTable(bs.sort(people));
 
+        System.out.println("-----------------------------------------");
+        System.out.println("-----------------------------------------");
 
+        SelectionSorter ss = new SelectionSorter();
+
+        peoplePrinter.showTable(ss.sort(people));
 
 
     }
