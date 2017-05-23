@@ -22,8 +22,32 @@ public Person[] sort(Person[] people) {
             }
         }
         return people;
+}
+
+
+    public Person[] sortPeopleByName(Person[] people) {
+        Person temp = new Person(0, "");
+        for (int i = 0; i < people.length - 1; i++) {
+
+
+            for (int j = 0; j < (people.length - 1); j++) {
+
+                if (people[j].compareTo(people[j + 1]) > 0) {
+
+                    temp = people[j + 1];
+
+                    people[j + 1] = people[j];
+
+                    people[j] = temp;
+
+                }
+            }
+        }
+        return people;
+
     }
 }
+
 
 
 

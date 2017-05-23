@@ -18,14 +18,9 @@ public class SelectionSorter {
                     people[index] = people[i];
                     people[i] = psmall;
 
-
-
                 }
 
-
-
                 }
-
         }
         return people;
     }

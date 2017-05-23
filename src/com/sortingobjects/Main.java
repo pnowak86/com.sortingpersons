@@ -26,6 +26,22 @@ public class Main {
         peoplePrinter.showTable(ss.sort(people));
 
 
+        System.out.println("-----------------------------------------");
+        System.out.println("-----------------------------------------");
+        System.out.println("-----------------------------------------");
+        System.out.println("-----------------------------------------");
+
+
+        Median m = new Median();
+        System.out.println("Median " + m.median(people));
+
+        System.out.println("-----------------------------------------");
+        System.out.println("-----------------------------------------");
+        System.out.println("-----------------------------------------");
+        System.out.println("-----------------------------------------");
+
+        peoplePrinter.showTable(bs.sortPeopleByName(people));
+
     }
 }
 
